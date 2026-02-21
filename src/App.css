@@ -1,0 +1,103 @@
+/* --- Global Styles --- */
+body {
+  background-color: #f4f7f6;
+}
+
+/* --- Compact Header (No Orange, Royal Blue Theme) --- */
+.main-header {
+  background: #1a2a6c;
+  /* Solid Royal Blue */
+  background: linear-gradient(to right, #1a2a6c, #2a4858);
+  padding: 12px 0;
+  border-bottom: 3px solid #ffd700;
+  /* Gold Thin Accent */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-title {
+  font-size: 1.2rem;
+  /* Compact size */
+  font-weight: 800;
+  color: #fff;
+  margin: 0;
+}
+
+.main-title span {
+  color: #ffd700;
+}
+
+/* WA Badge Container */
+.wa-trigger {
+  cursor: pointer;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+}
+
+.powered-text {
+  font-size: 0.6rem;
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.wa-badge {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 4px 12px;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+.time-text {
+  color: #ffd700;
+}
+
+/* --- WhatsApp Modal Styles --- */
+.wa-modal .modal-content {
+  border-radius: 20px;
+  border: none;
+}
+
+.wa-icon-circle {
+  width: 70px;
+  height: 70px;
+  background: #f0fff4;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.wa-join-btn {
+  background-color: #25D366;
+  border: none;
+  border-radius: 12px;
+  font-weight: 700;
+  transition: transform 0.2s;
+}
+
+.wa-join-btn:hover {
+  background-color: #1ebe57;
+  transform: scale(1.02);
+}
+
+/* --- Compact Footer --- */
+.footer-dark {
+  background: #111;
+  color: #777;
+  padding: 15px 0;
+  font-size: 0.75rem;
+}
