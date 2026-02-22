@@ -74,17 +74,36 @@ const Home = () => {
       <Container className="py-4">
         <div className="highlight-marquee-container">
           <div className="marquee-content">
-            വർണ്ണപ്പൊലിമയുടെ തനിമയ്ക്ക് അംഗീകാരം!{" "}
-            <span style={{ color: "#ffd700" }}>
-              പെരുവല്ലൂർ ശ്രീ കോട്ടുകുറുമ്പ ഭഗവതി ക്ഷേത്രം{" "}
-            </span>
-            കുംഭഭരണി മഹോത്സവത്തോടനുബന്ധിച്ച്{" "}
-            <span className="club-name">
-              സെഞ്ച്വറി അഡ്വഞ്ചേഴ്സ് ആർട്സ് & സ്പോർട്സ് ക്ലബ്ബ്{" "}
-            </span>
-            നൽകുന്ന{" "}
-            <span className="award-name">'ചമയശ്രേഷ്ഠ പുരസ്കാരം 2026'</span>-
-            ദൈവങ്ങളുടെ നാട്ടിൽ നമ്മുടെ പൂരത്തിന് മാത്രം സ്വന്തം!
+            {/* First copy */}
+            <div className="marquee-item">
+              വർണ്ണപ്പൊലിമയുടെ തനിമയ്ക്ക് അംഗീകാരം!{" "}
+              <span style={{ color: "#ffd700" }}>
+                പെരുവല്ലൂർ ശ്രീ കോട്ടുകുറുമ്പ ഭഗവതി ക്ഷേത്രം{" "}
+              </span>
+              കുംഭഭരണി മഹോത്സവത്തോടനുബന്ധിച്ച്{" "}
+              <span className="club-name">
+                സെഞ്ച്വറി അഡ്വഞ്ചേഴ്സ് ആർട്സ് & സ്പോർട്സ് ക്ലബ്ബ്{" "}
+              </span>
+              നൽകുന്ന{" "}
+              <span className="award-name">'ചമയശ്രേഷ്ഠ പുരസ്കാരം 2026'</span>-
+              ദൈവങ്ങളുടെ നാട്ടിൽ നമ്മുടെ പൂരത്തിന് മാത്രം സ്വന്തം!
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            {/* Second identical copy for seamless loop */}
+            <div className="marquee-item">
+              വർണ്ണപ്പൊലിമയുടെ തനിമയ്ക്ക് അംഗീകാരം!{" "}
+              <span style={{ color: "#ffd700" }}>
+                പെരുവല്ലൂർ ശ്രീ കോട്ടുകുറുമ്പ ഭഗവതി ക്ഷേത്രം{" "}
+              </span>
+              കുംഭഭരണി മഹോത്സവത്തോടനുബന്ധിച്ച്{" "}
+              <span className="club-name">
+                സെഞ്ച്വറി അഡ്വഞ്ചേഴ്സ് ആർട്സ് & സ്പോർട്സ് ക്ലബ്ബ്{" "}
+              </span>
+              നൽകുന്ന{" "}
+              <span className="award-name">'ചമയശ്രേഷ്ഠ പുരസ്കാരം 2026'</span>-
+              ദൈവങ്ങളുടെ നാട്ടിൽ നമ്മുടെ പൂരത്തിന് മാത്രം സ്വന്തം!
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
           </div>
         </div>
         <ElephantHero />

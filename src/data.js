@@ -1,4 +1,5 @@
 import { ayyappanagarAssets } from "./Assets/ayyappanagar";
+import { centerAssets } from "./Assets/center";
 import { devaswonAssets } from "./Assets/devasom";
 import ElamuraAssets from "./Assets/elamura";
 import { KannegathAssets } from "./Assets/kannegath";
@@ -7,6 +8,7 @@ import { nadupanthiAssets } from "./Assets/nadupanthi";
 import { parapuzhaAssets } from "./Assets/parapuzha";
 import { poochakkunnuAssets } from "./Assets/poochakkunnu";
 import { pullurAssets } from "./Assets/pullur";
+import { yuvajanaAssets } from "./Assets/yuvajana";
 
 export const committees = [
   {
@@ -644,5 +646,91 @@ export const committees = [
       "ഭഗവതിമാരുടെ മുഖാമുഖ സംഗമം",
       "നൂറ്റാണ്ടുകളുടെ പാരമ്പര്യം",
     ],
+  },
+  {
+    id: 10,
+    name: "യുവജന പെരുവല്ലൂർ",
+    type: "Committee",
+    subtitle: "വർണ്ണപ്പൊലിമയോടെ യുവജന പെരുവല്ലൂർ",
+    logo: yuvajanaAssets.logo,
+    description:
+      "പെരുവല്ലൂർ ശ്രീ കോട്ടുകുറുമ്പ ഭഗവതി ക്ഷേത്രം കുംഭഭരണി മഹോത്സവത്തിൽ യുവത്വത്തിന്റെ ആവേശമായി യുവജന പെരുവല്ലൂർ അണിനിരക്കുന്നു.",
+    phone: "9746254330",
+    location: "പെരുവല്ലൂർ",
+    instagram:
+      "https://www.instagram.com/yuvajana_peruvallur?igsh=YTllZmg2ZzhuYXg2",
+    history:
+      "കഴിഞ്ഞ 5 വർഷമായി പെരുവല്ലൂർ പൂരത്തിന്റെ ഭാഗമായി പ്രവർത്തിക്കുന്ന കമ്മിറ്റി.",
+    elephants: [
+      {
+        name: "മംഗലാംകുന്ന് ശരണ അയ്യപ്പൻ",
+        title: "ഗജവീരൻ",
+        image: yuvajanaAssets.elephant,
+        description:
+          "യുവജന പെരുവല്ലൂരിനായി ഇത്തവണ തിടമ്പേറ്റുന്ന മനോഹരമായ ഗജവീരൻ.",
+      },
+    ],
+    coverPhoto: yuvajanaAssets.coverPhoto,
+    posters: yuvajanaAssets.posters,
+    programs: [
+      {
+        date: "2026 ഫെബ്രുവരി 23",
+        time: "01:00 PM",
+        event: "എഴുന്നള്ളിപ്പ് ആരംഭം (കൂത്താട്ടിൽ ഭഗവതി ക്ഷേത്രത്തിൽ നിന്ന്)",
+      },
+      {
+        date: "2026 ഫെബ്രുവരി 23",
+        time: "02:30 PM",
+        event: "ഗംഭീര പഞ്ചവാദ്യം (തയ്യാറാക്കിയ പന്തലിൽ)",
+      },
+      {
+        date: "2026 ഫെബ്രുവരി 23",
+        time: "05:00 PM",
+        event: "ക്ഷേത്രത്തിൽ പ്രവേശിക്കുന്നു",
+      },
+      {
+        date: "2026 ഫെബ്രുവരി 24",
+        time: "02:00 AM",
+        event: "രാത്രി പൂരം ആരംഭം",
+      },
+    ],
+    credits: {
+      panchavadyam: "ചിറക്കൽ സുമേഷ് & പാർട്ടി",
+      chamayam: "ശ്രീപാദം ചുങ്കൽ",
+      elephant_agency: "ശ്രീവിനായക ഗുരുവായൂർ",
+    },
+  },
+
+  {
+    id: 11,
+    name: "സെന്റർ കമ്മിറ്റി പെരുവല്ലൂർ",
+    type: "Committee",
+    subtitle: "10 വാർഷികാഘോഷം - കുംഭഭരണി മഹോത്സവം 2026",
+    logo: centerAssets.logo,
+    description:
+      "പെരുവല്ലൂർ ശ്രീ കോട്ടുകുറുമ്പ ഭഗവതി ക്ഷേത്രം കുംഭഭരണി മഹോത്സവത്തിന്റെ ഭാഗമായി സെന്റർ കമ്മിറ്റി തങ്ങളുടെ പത്താം വാർഷികം ആഘോഷിക്കുന്നു.",
+    phone: "",
+    location: "പെരുവല്ലൂർ",
+    history:
+      "കഴിഞ്ഞ 10 വർഷമായി പെരുവല്ലൂർ പൂരത്തിൽ സജീവ സാന്നിധ്യമായി പ്രവർത്തിക്കുന്ന കമ്മിറ്റി.",
+    elephants: [
+      {
+        name: "മീനാട് കേശു",
+        title: "ഗജവീരൻ",
+        image: centerAssets.elephant,
+        description:
+          "സെന്റർ കമ്മിറ്റിയുടെ പത്താം വാർഷിക ആഘോഷങ്ങൾക്ക് മാറ്റുകൂട്ടാൻ ഇത്തവണ അണിനിരക്കുന്ന ഗജവീരൻ മീനാട് കേശു.",
+      },
+    ],
+    coverPhoto: centerAssets.coverPhoto,
+    posters: centerAssets.posters,
+    programs: [
+      {
+        date: "2026 ഫെബ്രുവരി 23",
+        time: "2:30 PM",
+        event: "കുംഭഭരണി മഹോത്സവം - എഴുന്നള്ളിപ്പ് ",
+      },
+    ],
+    highlights: ["10 വാർഷികാഘോഷം "],
   },
 ];
